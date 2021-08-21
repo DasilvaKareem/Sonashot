@@ -1,0 +1,1140 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B43DC4B26D0AE9A00E6FD10 /* SonarshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC4A26D0AE9A00E6FD10 /* SonarshotApp.swift */; };
+		8B43DC4D26D0AE9A00E6FD10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC4C26D0AE9A00E6FD10 /* ContentView.swift */; };
+		8B43DC4F26D0AE9B00E6FD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B43DC4E26D0AE9B00E6FD10 /* Assets.xcassets */; };
+		8B43DC5226D0AE9B00E6FD10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B43DC5126D0AE9B00E6FD10 /* Preview Assets.xcassets */; };
+		8B43DC5D26D0AE9C00E6FD10 /* SonarshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC5C26D0AE9C00E6FD10 /* SonarshotTests.swift */; };
+		8B43DC6826D0AE9C00E6FD10 /* SonarshotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC6726D0AE9C00E6FD10 /* SonarshotUITests.swift */; };
+		8B43DC6D26D0AE9C00E6FD10 /* Sonarshot WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8B43DC6C26D0AE9C00E6FD10 /* Sonarshot WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B43DC7226D0AE9D00E6FD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B43DC7126D0AE9D00E6FD10 /* Assets.xcassets */; };
+		8B43DC7926D0AE9D00E6FD10 /* Sonarshot WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B43DC7826D0AE9D00E6FD10 /* Sonarshot WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B43DC7E26D0AE9D00E6FD10 /* SonarshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC7D26D0AE9D00E6FD10 /* SonarshotApp.swift */; };
+		8B43DC8026D0AE9D00E6FD10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC7F26D0AE9D00E6FD10 /* ContentView.swift */; };
+		8B43DC8226D0AE9D00E6FD10 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC8126D0AE9D00E6FD10 /* NotificationController.swift */; };
+		8B43DC8426D0AE9D00E6FD10 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC8326D0AE9D00E6FD10 /* NotificationView.swift */; };
+		8B43DC8626D0AE9D00E6FD10 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC8526D0AE9D00E6FD10 /* ComplicationController.swift */; };
+		8B43DC8826D0AE9D00E6FD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B43DC8726D0AE9D00E6FD10 /* Assets.xcassets */; };
+		8B43DC8B26D0AE9D00E6FD10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B43DC8A26D0AE9D00E6FD10 /* Preview Assets.xcassets */; };
+		8B43DC9726D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DC9626D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppTests.swift */; };
+		8B43DCA226D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B43DCA126D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B43DC5926D0AE9C00E6FD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B43DC3F26D0AE9A00E6FD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B43DC4626D0AE9A00E6FD10;
+			remoteInfo = Sonarshot;
+		};
+		8B43DC6426D0AE9C00E6FD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B43DC3F26D0AE9A00E6FD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B43DC4626D0AE9A00E6FD10;
+			remoteInfo = Sonarshot;
+		};
+		8B43DC6E26D0AE9C00E6FD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B43DC3F26D0AE9A00E6FD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B43DC6B26D0AE9C00E6FD10;
+			remoteInfo = "Sonarshot WatchKit App";
+		};
+		8B43DC7A26D0AE9D00E6FD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B43DC3F26D0AE9A00E6FD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B43DC7726D0AE9D00E6FD10;
+			remoteInfo = "Sonarshot WatchKit Extension";
+		};
+		8B43DC9326D0AE9D00E6FD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B43DC3F26D0AE9A00E6FD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B43DC7726D0AE9D00E6FD10;
+			remoteInfo = "Sonarshot WatchKit Extension";
+		};
+		8B43DC9E26D0AE9D00E6FD10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B43DC3F26D0AE9A00E6FD10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B43DC6B26D0AE9C00E6FD10;
+			remoteInfo = "Sonarshot WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8B43DCA926D0AE9D00E6FD10 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8B43DC7926D0AE9D00E6FD10 /* Sonarshot WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DCAD26D0AE9D00E6FD10 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8B43DC6D26D0AE9C00E6FD10 /* Sonarshot WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8B43DC4726D0AE9A00E6FD10 /* Sonarshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonarshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43DC4A26D0AE9A00E6FD10 /* SonarshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarshotApp.swift; sourceTree = "<group>"; };
+		8B43DC4C26D0AE9A00E6FD10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B43DC4E26D0AE9B00E6FD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B43DC5126D0AE9B00E6FD10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B43DC5326D0AE9B00E6FD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B43DC5826D0AE9C00E6FD10 /* SonarshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43DC5C26D0AE9C00E6FD10 /* SonarshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarshotTests.swift; sourceTree = "<group>"; };
+		8B43DC5E26D0AE9C00E6FD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B43DC6326D0AE9C00E6FD10 /* SonarshotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonarshotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43DC6726D0AE9C00E6FD10 /* SonarshotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarshotUITests.swift; sourceTree = "<group>"; };
+		8B43DC6926D0AE9C00E6FD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B43DC6C26D0AE9C00E6FD10 /* Sonarshot WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sonarshot WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43DC7126D0AE9D00E6FD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B43DC7326D0AE9D00E6FD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B43DC7826D0AE9D00E6FD10 /* Sonarshot WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Sonarshot WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43DC7D26D0AE9D00E6FD10 /* SonarshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonarshotApp.swift; sourceTree = "<group>"; };
+		8B43DC7F26D0AE9D00E6FD10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B43DC8126D0AE9D00E6FD10 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		8B43DC8326D0AE9D00E6FD10 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		8B43DC8526D0AE9D00E6FD10 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		8B43DC8726D0AE9D00E6FD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B43DC8A26D0AE9D00E6FD10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B43DC8C26D0AE9D00E6FD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B43DC8D26D0AE9D00E6FD10 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		8B43DC9226D0AE9D00E6FD10 /* Sonarshot WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sonarshot WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43DC9626D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sonarshot_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		8B43DC9826D0AE9D00E6FD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B43DC9D26D0AE9D00E6FD10 /* Sonarshot WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sonarshot WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B43DCA126D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sonarshot_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		8B43DCA326D0AE9D00E6FD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B43DC4426D0AE9A00E6FD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC5526D0AE9C00E6FD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC6026D0AE9C00E6FD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC7526D0AE9D00E6FD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC8F26D0AE9D00E6FD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC9A26D0AE9D00E6FD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B43DC3E26D0AE9A00E6FD10 = {
+			isa = PBXGroup;
+			children = (
+				8B43DC4926D0AE9A00E6FD10 /* Sonarshot */,
+				8B43DC5B26D0AE9C00E6FD10 /* SonarshotTests */,
+				8B43DC6626D0AE9C00E6FD10 /* SonarshotUITests */,
+				8B43DC7026D0AE9C00E6FD10 /* Sonarshot WatchKit App */,
+				8B43DC7C26D0AE9D00E6FD10 /* Sonarshot WatchKit Extension */,
+				8B43DC9526D0AE9D00E6FD10 /* Sonarshot WatchKit AppTests */,
+				8B43DCA026D0AE9D00E6FD10 /* Sonarshot WatchKit AppUITests */,
+				8B43DC4826D0AE9A00E6FD10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B43DC4826D0AE9A00E6FD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC4726D0AE9A00E6FD10 /* Sonarshot.app */,
+				8B43DC5826D0AE9C00E6FD10 /* SonarshotTests.xctest */,
+				8B43DC6326D0AE9C00E6FD10 /* SonarshotUITests.xctest */,
+				8B43DC6C26D0AE9C00E6FD10 /* Sonarshot WatchKit App.app */,
+				8B43DC7826D0AE9D00E6FD10 /* Sonarshot WatchKit Extension.appex */,
+				8B43DC9226D0AE9D00E6FD10 /* Sonarshot WatchKit AppTests.xctest */,
+				8B43DC9D26D0AE9D00E6FD10 /* Sonarshot WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B43DC4926D0AE9A00E6FD10 /* Sonarshot */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC4A26D0AE9A00E6FD10 /* SonarshotApp.swift */,
+				8B43DC4C26D0AE9A00E6FD10 /* ContentView.swift */,
+				8B43DC4E26D0AE9B00E6FD10 /* Assets.xcassets */,
+				8B43DC5326D0AE9B00E6FD10 /* Info.plist */,
+				8B43DC5026D0AE9B00E6FD10 /* Preview Content */,
+			);
+			path = Sonarshot;
+			sourceTree = "<group>";
+		};
+		8B43DC5026D0AE9B00E6FD10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC5126D0AE9B00E6FD10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B43DC5B26D0AE9C00E6FD10 /* SonarshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC5C26D0AE9C00E6FD10 /* SonarshotTests.swift */,
+				8B43DC5E26D0AE9C00E6FD10 /* Info.plist */,
+			);
+			path = SonarshotTests;
+			sourceTree = "<group>";
+		};
+		8B43DC6626D0AE9C00E6FD10 /* SonarshotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC6726D0AE9C00E6FD10 /* SonarshotUITests.swift */,
+				8B43DC6926D0AE9C00E6FD10 /* Info.plist */,
+			);
+			path = SonarshotUITests;
+			sourceTree = "<group>";
+		};
+		8B43DC7026D0AE9C00E6FD10 /* Sonarshot WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC7126D0AE9D00E6FD10 /* Assets.xcassets */,
+				8B43DC7326D0AE9D00E6FD10 /* Info.plist */,
+			);
+			path = "Sonarshot WatchKit App";
+			sourceTree = "<group>";
+		};
+		8B43DC7C26D0AE9D00E6FD10 /* Sonarshot WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC7D26D0AE9D00E6FD10 /* SonarshotApp.swift */,
+				8B43DC7F26D0AE9D00E6FD10 /* ContentView.swift */,
+				8B43DC8126D0AE9D00E6FD10 /* NotificationController.swift */,
+				8B43DC8326D0AE9D00E6FD10 /* NotificationView.swift */,
+				8B43DC8526D0AE9D00E6FD10 /* ComplicationController.swift */,
+				8B43DC8726D0AE9D00E6FD10 /* Assets.xcassets */,
+				8B43DC8C26D0AE9D00E6FD10 /* Info.plist */,
+				8B43DC8D26D0AE9D00E6FD10 /* PushNotificationPayload.apns */,
+				8B43DC8926D0AE9D00E6FD10 /* Preview Content */,
+			);
+			path = "Sonarshot WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		8B43DC8926D0AE9D00E6FD10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC8A26D0AE9D00E6FD10 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B43DC9526D0AE9D00E6FD10 /* Sonarshot WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DC9626D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppTests.swift */,
+				8B43DC9826D0AE9D00E6FD10 /* Info.plist */,
+			);
+			path = "Sonarshot WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		8B43DCA026D0AE9D00E6FD10 /* Sonarshot WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B43DCA126D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppUITests.swift */,
+				8B43DCA326D0AE9D00E6FD10 /* Info.plist */,
+			);
+			path = "Sonarshot WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B43DC4626D0AE9A00E6FD10 /* Sonarshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B43DCAE26D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot" */;
+			buildPhases = (
+				8B43DC4326D0AE9A00E6FD10 /* Sources */,
+				8B43DC4426D0AE9A00E6FD10 /* Frameworks */,
+				8B43DC4526D0AE9A00E6FD10 /* Resources */,
+				8B43DCAD26D0AE9D00E6FD10 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B43DC6F26D0AE9C00E6FD10 /* PBXTargetDependency */,
+			);
+			name = Sonarshot;
+			productName = Sonarshot;
+			productReference = 8B43DC4726D0AE9A00E6FD10 /* Sonarshot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B43DC5726D0AE9C00E6FD10 /* SonarshotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B43DCB126D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "SonarshotTests" */;
+			buildPhases = (
+				8B43DC5426D0AE9C00E6FD10 /* Sources */,
+				8B43DC5526D0AE9C00E6FD10 /* Frameworks */,
+				8B43DC5626D0AE9C00E6FD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B43DC5A26D0AE9C00E6FD10 /* PBXTargetDependency */,
+			);
+			name = SonarshotTests;
+			productName = SonarshotTests;
+			productReference = 8B43DC5826D0AE9C00E6FD10 /* SonarshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B43DC6226D0AE9C00E6FD10 /* SonarshotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B43DCB426D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "SonarshotUITests" */;
+			buildPhases = (
+				8B43DC5F26D0AE9C00E6FD10 /* Sources */,
+				8B43DC6026D0AE9C00E6FD10 /* Frameworks */,
+				8B43DC6126D0AE9C00E6FD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B43DC6526D0AE9C00E6FD10 /* PBXTargetDependency */,
+			);
+			name = SonarshotUITests;
+			productName = SonarshotUITests;
+			productReference = 8B43DC6326D0AE9C00E6FD10 /* SonarshotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8B43DC6B26D0AE9C00E6FD10 /* Sonarshot WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B43DCAA26D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot WatchKit App" */;
+			buildPhases = (
+				8B43DC6A26D0AE9C00E6FD10 /* Resources */,
+				8B43DCA926D0AE9D00E6FD10 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B43DC7B26D0AE9D00E6FD10 /* PBXTargetDependency */,
+			);
+			name = "Sonarshot WatchKit App";
+			productName = "Sonarshot WatchKit App";
+			productReference = 8B43DC6C26D0AE9C00E6FD10 /* Sonarshot WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8B43DC7726D0AE9D00E6FD10 /* Sonarshot WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B43DCA626D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot WatchKit Extension" */;
+			buildPhases = (
+				8B43DC7426D0AE9D00E6FD10 /* Sources */,
+				8B43DC7526D0AE9D00E6FD10 /* Frameworks */,
+				8B43DC7626D0AE9D00E6FD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sonarshot WatchKit Extension";
+			productName = "Sonarshot WatchKit Extension";
+			productReference = 8B43DC7826D0AE9D00E6FD10 /* Sonarshot WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		8B43DC9126D0AE9D00E6FD10 /* Sonarshot WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B43DCB726D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot WatchKit AppTests" */;
+			buildPhases = (
+				8B43DC8E26D0AE9D00E6FD10 /* Sources */,
+				8B43DC8F26D0AE9D00E6FD10 /* Frameworks */,
+				8B43DC9026D0AE9D00E6FD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B43DC9426D0AE9D00E6FD10 /* PBXTargetDependency */,
+			);
+			name = "Sonarshot WatchKit AppTests";
+			productName = "Sonarshot WatchKit AppTests";
+			productReference = 8B43DC9226D0AE9D00E6FD10 /* Sonarshot WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B43DC9C26D0AE9D00E6FD10 /* Sonarshot WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B43DCBA26D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot WatchKit AppUITests" */;
+			buildPhases = (
+				8B43DC9926D0AE9D00E6FD10 /* Sources */,
+				8B43DC9A26D0AE9D00E6FD10 /* Frameworks */,
+				8B43DC9B26D0AE9D00E6FD10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B43DC9F26D0AE9D00E6FD10 /* PBXTargetDependency */,
+			);
+			name = "Sonarshot WatchKit AppUITests";
+			productName = "Sonarshot WatchKit AppUITests";
+			productReference = 8B43DC9D26D0AE9D00E6FD10 /* Sonarshot WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B43DC3F26D0AE9A00E6FD10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8B43DC4626D0AE9A00E6FD10 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8B43DC5726D0AE9C00E6FD10 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8B43DC4626D0AE9A00E6FD10;
+					};
+					8B43DC6226D0AE9C00E6FD10 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8B43DC4626D0AE9A00E6FD10;
+					};
+					8B43DC6B26D0AE9C00E6FD10 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8B43DC7726D0AE9D00E6FD10 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8B43DC9126D0AE9D00E6FD10 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8B43DC7726D0AE9D00E6FD10;
+					};
+					8B43DC9C26D0AE9D00E6FD10 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 8B43DC6B26D0AE9C00E6FD10;
+					};
+				};
+			};
+			buildConfigurationList = 8B43DC4226D0AE9A00E6FD10 /* Build configuration list for PBXProject "Sonarshot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B43DC3E26D0AE9A00E6FD10;
+			productRefGroup = 8B43DC4826D0AE9A00E6FD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B43DC4626D0AE9A00E6FD10 /* Sonarshot */,
+				8B43DC5726D0AE9C00E6FD10 /* SonarshotTests */,
+				8B43DC6226D0AE9C00E6FD10 /* SonarshotUITests */,
+				8B43DC6B26D0AE9C00E6FD10 /* Sonarshot WatchKit App */,
+				8B43DC7726D0AE9D00E6FD10 /* Sonarshot WatchKit Extension */,
+				8B43DC9126D0AE9D00E6FD10 /* Sonarshot WatchKit AppTests */,
+				8B43DC9C26D0AE9D00E6FD10 /* Sonarshot WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B43DC4526D0AE9A00E6FD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DC5226D0AE9B00E6FD10 /* Preview Assets.xcassets in Resources */,
+				8B43DC4F26D0AE9B00E6FD10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC5626D0AE9C00E6FD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC6126D0AE9C00E6FD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC6A26D0AE9C00E6FD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DC7226D0AE9D00E6FD10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC7626D0AE9D00E6FD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DC8B26D0AE9D00E6FD10 /* Preview Assets.xcassets in Resources */,
+				8B43DC8826D0AE9D00E6FD10 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC9026D0AE9D00E6FD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC9B26D0AE9D00E6FD10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B43DC4326D0AE9A00E6FD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DC4D26D0AE9A00E6FD10 /* ContentView.swift in Sources */,
+				8B43DC4B26D0AE9A00E6FD10 /* SonarshotApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC5426D0AE9C00E6FD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DC5D26D0AE9C00E6FD10 /* SonarshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC5F26D0AE9C00E6FD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DC6826D0AE9C00E6FD10 /* SonarshotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC7426D0AE9D00E6FD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DC8226D0AE9D00E6FD10 /* NotificationController.swift in Sources */,
+				8B43DC8026D0AE9D00E6FD10 /* ContentView.swift in Sources */,
+				8B43DC8626D0AE9D00E6FD10 /* ComplicationController.swift in Sources */,
+				8B43DC7E26D0AE9D00E6FD10 /* SonarshotApp.swift in Sources */,
+				8B43DC8426D0AE9D00E6FD10 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC8E26D0AE9D00E6FD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DC9726D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B43DC9926D0AE9D00E6FD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B43DCA226D0AE9D00E6FD10 /* Sonarshot_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B43DC5A26D0AE9C00E6FD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B43DC4626D0AE9A00E6FD10 /* Sonarshot */;
+			targetProxy = 8B43DC5926D0AE9C00E6FD10 /* PBXContainerItemProxy */;
+		};
+		8B43DC6526D0AE9C00E6FD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B43DC4626D0AE9A00E6FD10 /* Sonarshot */;
+			targetProxy = 8B43DC6426D0AE9C00E6FD10 /* PBXContainerItemProxy */;
+		};
+		8B43DC6F26D0AE9C00E6FD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B43DC6B26D0AE9C00E6FD10 /* Sonarshot WatchKit App */;
+			targetProxy = 8B43DC6E26D0AE9C00E6FD10 /* PBXContainerItemProxy */;
+		};
+		8B43DC7B26D0AE9D00E6FD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B43DC7726D0AE9D00E6FD10 /* Sonarshot WatchKit Extension */;
+			targetProxy = 8B43DC7A26D0AE9D00E6FD10 /* PBXContainerItemProxy */;
+		};
+		8B43DC9426D0AE9D00E6FD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B43DC7726D0AE9D00E6FD10 /* Sonarshot WatchKit Extension */;
+			targetProxy = 8B43DC9326D0AE9D00E6FD10 /* PBXContainerItemProxy */;
+		};
+		8B43DC9F26D0AE9D00E6FD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B43DC6B26D0AE9C00E6FD10 /* Sonarshot WatchKit App */;
+			targetProxy = 8B43DC9E26D0AE9D00E6FD10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B43DCA426D0AE9D00E6FD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B43DCA526D0AE9D00E6FD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8B43DCA726D0AE9D00E6FD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sonarshot WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sonarshot WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.Sonarshot.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		8B43DCA826D0AE9D00E6FD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sonarshot WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Sonarshot WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.Sonarshot.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		8B43DCAB26D0AE9D00E6FD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				IBSC_MODULE = Sonarshot_WatchKit_Extension;
+				INFOPLIST_FILE = "Sonarshot WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.Sonarshot.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		8B43DCAC26D0AE9D00E6FD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				IBSC_MODULE = Sonarshot_WatchKit_Extension;
+				INFOPLIST_FILE = "Sonarshot WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.Sonarshot.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		8B43DCAF26D0AE9D00E6FD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sonarshot/Preview Content\"";
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sonarshot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.Sonarshot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B43DCB026D0AE9D00E6FD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Sonarshot/Preview Content\"";
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Sonarshot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.Sonarshot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B43DCB226D0AE9D00E6FD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				INFOPLIST_FILE = SonarshotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.SonarshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonarshot.app/Sonarshot";
+			};
+			name = Debug;
+		};
+		8B43DCB326D0AE9D00E6FD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				INFOPLIST_FILE = SonarshotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.SonarshotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonarshot.app/Sonarshot";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B43DCB526D0AE9D00E6FD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				INFOPLIST_FILE = SonarshotUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.SonarshotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sonarshot;
+			};
+			name = Debug;
+		};
+		8B43DCB626D0AE9D00E6FD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				INFOPLIST_FILE = SonarshotUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bdpa.SonarshotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sonarshot;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B43DCB826D0AE9D00E6FD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				INFOPLIST_FILE = "Sonarshot WatchKit AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bdpa.Sonarshot-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonarshot WatchKit Extension.appex/Sonarshot WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		8B43DCB926D0AE9D00E6FD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				INFOPLIST_FILE = "Sonarshot WatchKit AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bdpa.Sonarshot-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonarshot WatchKit Extension.appex/Sonarshot WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		8B43DCBB26D0AE9D00E6FD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				INFOPLIST_FILE = "Sonarshot WatchKit AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bdpa.Sonarshot-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Sonarshot WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		8B43DCBC26D0AE9D00E6FD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 29AHJLC5RL;
+				INFOPLIST_FILE = "Sonarshot WatchKit AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bdpa.Sonarshot-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Sonarshot WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B43DC4226D0AE9A00E6FD10 /* Build configuration list for PBXProject "Sonarshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43DCA426D0AE9D00E6FD10 /* Debug */,
+				8B43DCA526D0AE9D00E6FD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B43DCA626D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43DCA726D0AE9D00E6FD10 /* Debug */,
+				8B43DCA826D0AE9D00E6FD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B43DCAA26D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43DCAB26D0AE9D00E6FD10 /* Debug */,
+				8B43DCAC26D0AE9D00E6FD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B43DCAE26D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43DCAF26D0AE9D00E6FD10 /* Debug */,
+				8B43DCB026D0AE9D00E6FD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B43DCB126D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "SonarshotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43DCB226D0AE9D00E6FD10 /* Debug */,
+				8B43DCB326D0AE9D00E6FD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B43DCB426D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "SonarshotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43DCB526D0AE9D00E6FD10 /* Debug */,
+				8B43DCB626D0AE9D00E6FD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B43DCB726D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43DCB826D0AE9D00E6FD10 /* Debug */,
+				8B43DCB926D0AE9D00E6FD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B43DCBA26D0AE9D00E6FD10 /* Build configuration list for PBXNativeTarget "Sonarshot WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B43DCBB26D0AE9D00E6FD10 /* Debug */,
+				8B43DCBC26D0AE9D00E6FD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B43DC3F26D0AE9A00E6FD10 /* Project object */;
+}
